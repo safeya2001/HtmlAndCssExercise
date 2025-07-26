@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <table border="1px">
+ 
+      <th>HeadCol 1</th>
+         <th>HeadCol 2</th>
+          <th>HeadCol 3</th>
+  
+    <tr>
+        <td>Row 1 , Col 1</td>
+         <td>Row 1 , Col 2</td>
+          <td>Row 1 , Col 3</td>
+    </tr>
+    <tr>
+         <td>Row 2 , Col 1</td>
+          <td>Row 2 , Col 2</td>
+           <td>Row 3 , Col 3</td>
+    </tr>
+   </table> 
+
+<br><br><br>
+
+      <table border="1px">
+ 
+
+
+  
+    <tr>
+        <td rowspan="2">Row 1-2 , Col 1</td>
+         <td>Row 1 , Col 2</td>
+          <td>Row 1 , Col 3</td>
+          <td>Row 1, Col 4</td>
+    </tr>
+    <tr>
+        
+          <!-- <td rowspan="2">Row 2 , Col 2</td> -->
+           <td colspan="2" rowspan="2">Row 2-3 , Col 3-2</td>
+         <td>Row 2 , Col 4</td>
+
+    </tr>
+         <tr>
+        <td>Row 3 , Col 1</td>
+         
+      
+          <td >Row 3, Col 4</td>
+    </tr>
+
+       <tr>
+        <td>Row 4 , Col 1</td>
+         <td>Row 4 , Col 2</td>
+          <td colspan="2">Row 3-4 , Col 3</td>
+   
+    </tr>
+   </table> 
+</body>
+</html>
